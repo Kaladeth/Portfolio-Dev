@@ -1,13 +1,13 @@
-/* Général */
-html {
+/* = = = = = = = = = = Général = = = = = = = = = = */
+body {
   font-family: "Genos", sans-serif;
 }
 
-/* Barre de navigation */
+/* = = = = = = = = = = Barre de navigation = = = = = = = = = = */
 nav {
-  background-color: rgba(2, 40, 154, 1);
+  background-color: rgb(2, 40, 154);
   opacity: 0.8;
-  position: sticky;
+  position: fixed;
 }
 nav img {
   width: 4rem;
@@ -15,7 +15,7 @@ nav img {
 }
 nav ul {
   text-align: center;
-  padding-top: 18px;
+  padding-top: 15px;
   margin-bottom: 0;
 }
 nav ul li {
@@ -29,7 +29,59 @@ nav ul li a {
   color: rgba(200, 200, 200, 0.76);
   display: inline;
   transition: all ease-in-out 0.2s;
+  font-size: 1.4em;
 }
 nav ul li a:hover {
   color: rgba(255, 255, 255, 1);
+}
+
+/* = = = = = = = = = = Présentation = = = = = = = = = =  */
+#presentation {
+  background-image: url(../img/bg/underwater2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* - - - - - Nom - - - - - */
+#mon-nom {
+  color: rgba(255, 255, 255, 0.76);
+  font-weight: 900;
+  text-shadow: 0px 10px 10px black;
+  font-family: "Acme", sans-serif;
+  padding-top: 80px;
+}
+#mon-nom h1 {
+  font-size: 500%;
+}
+/* - - - - - Titre - - - - - */
+#titrage {
+  color: rgba(230, 230, 230, 0.96);
+  font-size: 450%;
+  font-weight: bolder;
+  text-shadow: 0px 10px 10px black;
+  padding: 40px 0 0 15px;
+}
+/* - - - - - Boutons - - - - - */
+#presentation .boutons {
+  padding: 40px 0px 60px 15px;
+}
+#presentation button {
+  background-color: #f0bc54;
+  border: none;
+  width: 80%;
+  font-family: "Courgette", sans-serif;
+  height: 45%;
+  transition: all 0.8s;
+}
+#presentation button:hover {
+  background-color: cyan;
+  color: orange;
+}
+#presentation i {
+  font-size: 10rem;
+  padding-top:30px;
+  color: #f0bc54;
+  transition: all 0.8s;
+}
+#presentation i:hover {
+  color: rgb(80, 241, 215);
 }
