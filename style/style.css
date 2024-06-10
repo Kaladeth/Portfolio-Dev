@@ -1,0 +1,35 @@
+/* Général */
+html {
+  font-family: "Genos", sans-serif;
+}
+
+/* Barre de navigation */
+nav {
+  background-color: rgba(2, 40, 154, 1);
+  opacity: 0.8;
+  position: sticky;
+}
+nav img {
+  width: 4rem;
+  text-align: center;
+}
+nav ul {
+  text-align: center;
+  padding-top: 18px;
+  margin-bottom: 0;
+}
+nav ul li {
+  list-style-type: none;
+  margin: 0 3em;
+  padding: 0;
+  display: inline;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgba(200, 200, 200, 0.76);
+  display: inline;
+  transition: all ease-in-out 0.2s;
+}
+nav ul li a:hover {
+  color: rgba(255, 255, 255, 1);
+}
