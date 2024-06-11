@@ -2,7 +2,31 @@
 body {
   font-family: "Genos", sans-serif;
 }
-
+.dot-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  animation-name: dot-color;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  margin: 10px 10px;
+}
+@keyframes dot-color {
+  0% {
+    background-color: blue;
+  }
+  50% {
+    background-color: skyblue;
+  }
+  100% {
+    background-color: blue;
+  }
+}
+.titre-section {
+  font-weight: bold;
+  font-family: "Quicksand", sans-serif;
+}
 /* = = = = = = = = = = Barre de navigation = = = = = = = = = = */
 nav {
   background-color: rgb(2, 40, 154);
@@ -40,6 +64,7 @@ nav ul li a:hover {
   background-image: url(../img/bg/underwater2.jpg);
   background-size: cover;
   background-attachment: fixed;
+  margin-bottom: 20px;
 }
 /* - - - - - Nom - - - - - */
 #mon-nom {
@@ -78,10 +103,44 @@ nav ul li a:hover {
 }
 #presentation i {
   font-size: 10rem;
-  padding-top:30px;
+  padding-top: 30px;
   color: #f0bc54;
   transition: all 0.8s;
 }
 #presentation i:hover {
   color: rgb(80, 241, 215);
+}
+/* = = = = = = = = = = Qui suis-je = = = = = = = = = =  */
+#qui-suis-je {
+  margin-bottom: 20px;
+}
+#titre-qsj {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+#qui-suis-je p {
+  font-weight: bold;
+  margin-top: 30px;
+}
+#photo {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 40px;
+}
+#photo img {
+  height: 100%;
+  border-radius: 20%;
+}
+/* = = = = = = = = = = Parcours = = = = = = = = = =  */
+#parcours {
+  background-image: url(../img/bg/underwater3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+#titre-parc {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top:20px;
 }
