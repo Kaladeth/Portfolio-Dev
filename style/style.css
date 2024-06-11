@@ -142,5 +142,34 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
-  margin-top:20px;
+  margin-top: 20px;
+}
+/* - - - - - Boutons - - - - - */
+.accordeon {
+  background-color: rgba(0, 0, 255, 0.7);
+  color: white;
+  font-family: "Courgette", sans-serif;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.5s;
+  padding: 8px;
+}
+.active,
+.accordeon:hover {
+  background-color: cyan;
+  color: black;
+}
+.panel {
+  background-color: white;
+  opacity: 0.5;
+  box-shadow: 5px 0px 5px 0px black ;
+  display:none;
+}
+.panel p {
+  color:black;
+  font-weight: bold;
+  text-shadow: 10px 10px 10px black;
+  margin-bottom:0px;
 }
