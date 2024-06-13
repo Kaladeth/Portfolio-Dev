@@ -26,201 +26,30 @@
   <body>
     <header>
       <!-- Barre de navigation -->
-      <nav class="container-fluid">
+      <div class="container-fluid">
         <div class="row">
-          <span class="col-1"><img src="./img/monlogo.png" /></span>
-          <ul class="col-11">
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">Qui suis-je</a></li>
-            <li><a href="#">Parcours</a></li>
-            <li><a href="#">Compétences</a></li>
-            <li><a href="#">Projets</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
+          <div class="col-md-1" id="burger-nav">
+            <img src="./img/icons/burger-bar.png" id="burger-nav-img" />
+          </div>
+          <div class="col-md-11">
+            <div class="row" id="nav-content">
+              <ul class="col-md-11" id="listnav">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Qui suis-je</a></li>
+                <li><a href="#">Parcours</a></li>
+                <li><a href="#">Compétences</a></li>
+                <li><a href="#">Projets</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+              <span class="col-md-1" id="logonav"
+                ><img src="./img/monlogo.png"
+              /></span>
+            </div>
+          </div>
         </div>
-      </nav>
+      </div>
     </header>
-    <!-- Présentation -->
-    <section id="presentation">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12" id="mon-nom">
-            <h1>Esteban JARDIN</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12" id="titrage">
-            <h2>Développer Web & Web Mobile</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 boutons">
-            <a href="#"><button class="mb-5">Contactez-moi</button></a>
-            <a href="./links/CV ESTEBAN JARDIN.pdf" target="_blank"
-              ><button>Téléchargez mon CV</button></a
-            >
-          </div>
-          <div class="col-md-6">
-            <a
-              href="https://www.linkedin.com/in/esteban-jardin-625823221/"
-              target="_blank"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Qui suis-je -->
-    <section id="qui-suis-je">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12" id="titre-qsj">
-            <div class="dot-color"></div>
-            <h2 class="titre-section">Qui suis-je ?</h2>
-            <div class="dot-color"></div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <p>Salutations !</p>
-            <p>
-              Je m'appelle Esteban JARDIN et je suis un Développeur Web diplômé.
-              Je suis un homme d'une insatiable curiosité et avec une soif
-              d'apprendre inextinguible, étant diagnostiqué HPI et autiste
-              Asperger. J'apprends très vite de nouveaux concepts, et m'orienter
-              vers le métier de Développeur Web tomba sous le sens, puisque la
-              veille technologique que ce métier implique m'oblige, pour mon
-              plus grand plaisir, à apprendre continuellement. Je suis toujours
-              prêt à découvrir de nouvelles technologies, de nouveaux langages
-              et de nouvelles façons de travailler. Je suis quelqu'un d'enjoué
-              et de rigoureux, aimant travailler en équipe mais appréciant que
-              chacun travaille sur sa part, ce qui colle exactement au métier de
-              développeur. J'ai le contact aisé, même si mon statut d'autiste
-              m'oblige à rester concentré sur les discussions pour tout
-              assimilier. Mais cela n'a que des effets positifs sur mon travail
-              ! Je suis prêt à travailler dur, et j'espère pouvoir apporter un
-              vent de fraicheur et de spontanéité à votre équipe !
-            </p>
-          </div>
-          <div class="col-md-6" id="photo">
-            <img src="./img/photo.png" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Parcours -->
-    <section id="parcours">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12" id="titre-parc">
-            <div class="dot-color"></div>
-            <h2 class="titre-section">Mon parcours</h2>
-            <div class="dot-color"></div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 mb-5">
-            <button class="accordeon">Mon parcours sinueux</button>
-            <div class="panel">
-              <p>
-                Si aujourd'hui je souhaite faire carrière dans le Développement
-                Web, ça n'allait pas forcément de soi il y a des années. Si j'ai
-                toujours été à l'aise avec l'informatique et que j'avais
-                effectué mon stage de troisième dans la partie tech d'une
-                entreprise, mon parcours scolaire s'est plutôt orienté vers une
-                carrière scientifique, et ne sachant pas vraiment ce que je
-                souhaitais faire, je me suis laissé porter par ce que la vie
-                semblait paver pour moi, et trouvant la chimie passionnante,
-                j'ai décidé de poursuivre mes études dans ce domaine.
-              </p>
-            </div>
-            <button class="accordeon">Mes années de chimie</button>
-            <div class="panel">
-              <p>
-                J'ai par la suite entâmé des études de chimie, d'abord en
-                effectuant une année de prépa scientifique puis en rejoignant
-                l'université de Paris Est - Créteil (UPEC) afin de réaliser une
-                license de chimie. Ces études furent passionnantes et me
-                permirent d'acquiérir un esprit et un raisonnement
-                scientifiques, que je conserve encore aujourd'hui. Grâce à ces
-                années passées dans le milieu de la science, j'aborde désormais
-                les problèmes de façon logique et comme des énigmes, ce qui est
-                un puissant atout pour leur résolution. Hélas, il me faudra cinq
-                années pour réaliser qu'aussi grisantes soient ces études, je ne
-                souhaitais pas faire carrière dans la chimie. J'ai ainsi
-                abandonné ma license et je me suis alors cherché, ne sachant pas
-                encore ce que je voulais faire.
-              </p>
-            </div>
-            <button class="accordeon">Trouver ma voie</button>
-            <div class="panel">
-              <p>
-                Je me suis alors posé de nombreuses questions sur mon avenir,
-                qui m'ont conduit à effectuer une étude de métier qui m'a
-                rapidement orienté vers le domaine dans lequel je me suis
-                toujours plu : celui de l'informatique. J'ai alors approfondi
-                l'étude afin de trouver le métier de l'informatique qui m'était
-                le plus adapté, et ainsi ai-je insolé le métier de Développeur
-                Web. J'aime créer, j'aime coder et pouvoir voir ce que je fais
-                en temps réel, et je vois les problèmes de code comme des
-                énigmes à résoudre. Tout cela met à la fois ma créativité en
-                éveil et mon cerveau en ébullition : j'adore cette sensation, et
-                j'aime ainsi programmer, que ce soit en front-end en créant de
-                belles interfaces ergonomiques ou en back-end en réalisant des
-                fonctionnalités diverses et variées. Pour moi, le chjemin à
-                suivre était clair : il fallait que je me forme et que
-                j'apprenne les différents langages de programmation, mais aussi
-                que j'acquiert les compétences transverses nécessaires pour
-                devenir un grand développeur.
-              </p>
-            </div>
-            <button class="accordeon">Ma formation</button>
-            <div class="panel">
-              <p>
-                Je me suis d'abord tourné vers l'alternance, grâce à l'école
-                Arinfo à Niort. J'ai appris les bases de la programmation et je
-                devais trouver une entreprise pour effecuter mon alternance,
-                mais hélas, mes recherches furent interrompues par un
-                confinement contre le Covid-19. Les développeurs étaient alors
-                tous en télétravail, rendant la formation de nouveaux talents
-                impossible. Je dus donc abandonner l'idée d'une alternance et je
-                me tournai alors vers une formation continue auprès de l'ENI de
-                Nantes. J'ai alors rejoint cette école et me suis formé en
-                continu pendant 8 mois pour acquiérir le titre de Développeur
-                Web & Web Mobile : 6 mois de formation intensive, pendant
-                lesquels j'apprendrait à coder dans différents langages et à
-                gérer un projet, et 2 mois de stage de fin de formation auprès
-                de l'entreprise Scalian, pendant lesquels j'évoluerais dans un
-                cadre professionnel concret, avec des outils de gestion de
-                projet et une équipe complète, ce qui me permettra d'apprendre
-                plus pendant ces deux mois que pendant les six mois de formation
-                intensive. Comme je le dis souvent, on ne peut apprendre mieux
-                que sur le terrain. N'hésitez-pas à consulter la section dédiée
-                aux projets pour découvrir ce que j'ai fait pendant ces deux
-                mois.
-              </p>
-            </div>
-            <button class="accordeon">Et maintenant ?</button>
-            <div class="panel">
-              <p>
-                Je suis désormais diplômé et je cherche maintenant à faire
-                carrière dans le développement. Je cherche à travailler dans ce
-                secteur, peu importe où en France : je suis prêt à bouger
-                n'importe où le vent m'emmenera, tant que je peux étancher ma
-                soif de curiosité et de connaissances et exercer le métier que
-                j'aime. Je continue à m'auto-former sur les langages que je n'ai
-                pas eu la chance d'apprendre à l'ENI tout en approfondissant mes
-                connaissances dans les langages que je connais déjà. Comme j'ai
-                été amené à le dire, on n'apprendra pas mieux que sur le
-                terrain, et ainsi j'espère rejoindre votre équipe afin de
-                toujours plus apprendre. En retour, vous pourrez compter sur moi
-                pour vos projets les plus fous et complexes !
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+
     <script src="./scripts/script.js"></script>
   </body>
 </html>
