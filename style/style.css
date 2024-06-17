@@ -13,7 +13,7 @@ a {
 }
 /* = = = = = = = = = = Navbar = = = = = = = = = = */
 #navbar {
-  position:fixed
+  position: fixed;
 }
 #nav-content {
   background-color: rgb(2, 40, 154);
@@ -62,25 +62,67 @@ a {
 /* = = = = = = = = = = Présentation = = = = = = = = = =  */
 #presentation {
   background-image: url(../img/bg/desktop.jpg);
-  background-size:cover;
-  background-attachment:fixed ;
+  background-size: cover;
+  background-attachment: fixed;
   font-style: italic;
-  color:rgba(230, 230, 230, 0.7);
+  color: rgba(230, 230, 230, 0.7);
 }
 #salutations {
-  margin-top:50px;
+  margin-top: 50px;
 }
 #devtitle {
-  font-size:5rem;
+  font-size: 5rem;
   font-style: normal;
 }
 #recherche {
-    color:rgba(0, 0, 0, 1);
+  color: rgba(0, 0, 0, 1);
 }
 #presentation i {
-  font-size:500%;
-  color:rgba(100, 100, 100, 1);
+  font-size: 500%;
+  color: rgba(100, 100, 100, 1);
+  transition: all 0.3s ease-in;
 }
 .pres-ico {
-  margin-top:100px;
+  margin-top: 140px;
+}
+#presentation p {
+  font-style: normal;
+  font-size: 2em;
+  font-weight: bold;
+}
+#pres-html i {
+  color: red;
+}
+#pres-fe {
+  color: red;
+  overflow: hidden;
+  max-height: 0px;
+  transition: all 0.3s ease-in;
+}
+#pres-db i {
+  color: cyan;
+}
+#pres-be {
+  color: cyan;
+  overflow: hidden;
+  max-height: 0px;
+  transition: all 0.3s ease-in;
+}
+#pres-mob i {
+  color: green;
+}
+#pres-mo {
+  color: green;
+  overflow: hidden;
+  max-height: 0px;
+  transition: all 0.3s ease-in;
+}
+#pres-design i {
+  color: yellow;
+}
+#pres-ds {
+  color: yellow;
+  overflow: hidden;
+  max-height: 0px;
+  transition: all 0.3s ease-in;
 }
