@@ -10,14 +10,16 @@ a {
 }
 .desactive {
   height: 0px;
-  transition: height 2s linear;
 }
 /* = = = = = = = = = = Navbar = = = = = = = = = = */
+#navbar {
+  position:fixed
+}
 #nav-content {
   background-color: rgb(2, 40, 154);
   opacity: 0.8;
   overflow: hidden;
-  transition: height 2s linear;
+  transition: all 2s linear;
 }
 #nav-content img {
   width: 4rem;
@@ -58,3 +60,27 @@ a {
   cursor: pointer;
 }
 /* = = = = = = = = = = Présentation = = = = = = = = = =  */
+#presentation {
+  background-image: url(../img/bg/desktop.jpg);
+  background-size:cover;
+  background-attachment:fixed ;
+  font-style: italic;
+  color:rgba(230, 230, 230, 0.7);
+}
+#salutations {
+  margin-top:50px;
+}
+#devtitle {
+  font-size:5rem;
+  font-style: normal;
+}
+#recherche {
+    color:rgba(0, 0, 0, 1);
+}
+#presentation i {
+  font-size:500%;
+  color:rgba(100, 100, 100, 1);
+}
+.pres-ico {
+  margin-top:100px;
+}
